@@ -1,0 +1,62 @@
+Time,Temperature,Dew Point,Humidity,Wind,Wind Speed,Wind Gust,Pressure,Precip.,Condition
+2017-01-22 1:07 AM,47 F,47 F,100 %,NE,6 mph,0 mph,29.74 in,0.0 in,Cloudy
+2017-01-22 1:52 AM,47 F,47 F,100 %,NE,7 mph,0 mph,29.73 in,0.0 in,Cloudy
+2017-01-22 2:44 AM,47 F,46 F,97 %,NE,8 mph,0 mph,29.71 in,0.0 in,Fog
+2017-01-22 2:52 AM,47 F,46 F,97 %,NE,8 mph,0 mph,29.71 in,0.0 in,Fog
+2017-01-22 3:52 AM,47 F,47 F,100 %,NE,8 mph,0 mph,29.70 in,0.0 in,Light Rain
+2017-01-22 4:21 AM,47 F,47 F,100 %,NNE,6 mph,0 mph,29.70 in,0.0 in,Light Drizzle
+2017-01-22 4:52 AM,47 F,47 F,100 %,NE,6 mph,0 mph,29.69 in,0.0 in,Cloudy
+2017-01-22 5:23 AM,47 F,47 F,100 %,NE,6 mph,0 mph,29.69 in,0.0 in,Fog
+2017-01-22 5:52 AM,47 F,47 F,100 %,NE,5 mph,0 mph,29.68 in,0.0 in,Fog
+2017-01-22 5:59 AM,47 F,47 F,100 %,NE,6 mph,0 mph,29.68 in,0.0 in,Fog
+2017-01-22 6:20 AM,47 F,47 F,100 %,N,5 mph,0 mph,29.69 in,0.0 in,Light Drizzle
+2017-01-22 6:28 AM,47 F,47 F,100 %,N,7 mph,0 mph,29.69 in,0.0 in,Light Drizzle
+2017-01-22 6:47 AM,46 F,46 F,100 %,NNE,9 mph,0 mph,29.66 in,0.0 in,Cloudy
+2017-01-22 6:52 AM,47 F,46 F,97 %,NNE,8 mph,0 mph,29.67 in,0.0 in,Cloudy
+2017-01-22 7:52 AM,47 F,47 F,100 %,N,8 mph,0 mph,29.69 in,0.0 in,Light Drizzle
+2017-01-22 8:07 AM,47 F,47 F,100 %,NNE,8 mph,0 mph,29.68 in,0.0 in,Light Drizzle
+2017-01-22 8:21 AM,47 F,47 F,100 %,N,7 mph,0 mph,29.68 in,0.0 in,Light Drizzle
+2017-01-22 8:31 AM,47 F,47 F,100 %,N,6 mph,0 mph,29.68 in,0.0 in,Light Drizzle
+2017-01-22 8:36 AM,47 F,47 F,100 %,N,6 mph,0 mph,29.68 in,0.0 in,Light Drizzle
+2017-01-22 8:52 AM,48 F,47 F,96 %,N,8 mph,0 mph,29.69 in,0.0 in,Light Drizzle
+2017-01-22 8:58 AM,48 F,47 F,96 %,N,8 mph,0 mph,29.69 in,0.0 in,Light Drizzle
+2017-01-22 9:52 AM,48 F,48 F,100 %,N,10 mph,0 mph,29.69 in,0.0 in,Light Drizzle
+2017-01-22 10:52 AM,50 F,48 F,93 %,NNW,5 mph,0 mph,29.72 in,0.0 in,Cloudy
+2017-01-22 11:52 AM,50 F,48 F,93 %,N,8 mph,0 mph,29.70 in,0.0 in,Cloudy
+2017-01-22 12:30 PM,50 F,48 F,93 %,NNE,9 mph,0 mph,29.67 in,0.0 in,Cloudy
+2017-01-22 12:44 PM,50 F,48 F,93 %,N,9 mph,0 mph,29.67 in,0.0 in,Cloudy
+2017-01-22 12:52 PM,50 F,48 F,93 %,N,9 mph,0 mph,29.66 in,0.0 in,Cloudy
+2017-01-22 1:52 PM,50 F,48 F,93 %,N,7 mph,0 mph,29.63 in,0.0 in,Cloudy
+2017-01-22 2:52 PM,50 F,48 F,93 %,NNE,7 mph,0 mph,29.59 in,0.0 in,Cloudy
+2017-01-22 3:18 PM,50 F,49 F,96 %,NNE,9 mph,0 mph,29.58 in,0.0 in,Light Rain
+2017-01-22 3:26 PM,50 F,49 F,96 %,NNW,8 mph,0 mph,29.60 in,0.0 in,Light Drizzle
+2017-01-22 3:43 PM,51 F,50 F,96 %,NW,9 mph,0 mph,29.63 in,0.0 in,Light Rain
+2017-01-22 3:48 PM,52 F,50 F,94 %,NW,9 mph,0 mph,29.63 in,0.0 in,Rain
+2017-01-22 3:52 PM,51 F,50 F,96 %,NW,5 mph,0 mph,29.63 in,0.0 in,Rain
+2017-01-22 4:01 PM,51 F,51 F,100 %,WNW,5 mph,0 mph,29.64 in,0.0 in,Light Rain
+2017-01-22 4:14 PM,52 F,51 F,97 %,N,8 mph,0 mph,29.63 in,0.0 in,Light Rain
+2017-01-22 4:22 PM,51 F,51 F,100 %,NNE,5 mph,0 mph,29.63 in,0.1 in,Light Rain
+2017-01-22 4:29 PM,50 F,50 F,100 %,ENE,5 mph,0 mph,29.64 in,0.1 in,Light Rain
+2017-01-22 4:36 PM,50 F,50 F,100 %,N,5 mph,0 mph,29.64 in,0.1 in,Light Rain
+2017-01-22 4:52 PM,51 F,51 F,100 %,N,6 mph,0 mph,29.63 in,0.1 in,Light Rain
+2017-01-22 5:18 PM,50 F,50 F,100 %,NE,6 mph,0 mph,29.61 in,0.0 in,Light Rain
+2017-01-22 5:40 PM,50 F,50 F,100 %,NE,10 mph,0 mph,29.60 in,0.0 in,Light Rain
+2017-01-22 5:52 PM,49 F,49 F,100 %,ENE,9 mph,0 mph,29.60 in,0.0 in,Light Rain
+2017-01-22 6:01 PM,50 F,50 F,100 %,NE,6 mph,0 mph,29.61 in,0.0 in,Light Rain
+2017-01-22 6:12 PM,50 F,50 F,100 %,NE,7 mph,0 mph,29.61 in,0.0 in,Light Rain
+2017-01-22 6:52 PM,50 F,50 F,100 %,ENE,9 mph,0 mph,29.61 in,0.0 in,Light Rain
+2017-01-22 7:08 PM,50 F,50 F,100 %,NE,8 mph,0 mph,29.62 in,0.0 in,Light Rain
+2017-01-22 7:25 PM,51 F,50 F,96 %,NE,9 mph,0 mph,29.62 in,0.0 in,Light Rain
+2017-01-22 7:52 PM,50 F,49 F,96 %,NE,13 mph,0 mph,29.61 in,0.0 in,Cloudy
+2017-01-22 8:52 PM,50 F,49 F,96 %,NE,12 mph,0 mph,29.62 in,0.0 in,Cloudy
+2017-01-22 9:28 PM,50 F,50 F,100 %,NE,12 mph,0 mph,29.61 in,0.0 in,Cloudy
+2017-01-22 9:34 PM,50 F,50 F,100 %,NE,13 mph,0 mph,29.61 in,0.0 in,Light Rain
+2017-01-22 9:45 PM,50 F,50 F,100 %,NE,10 mph,0 mph,29.61 in,0.0 in,Light Rain
+2017-01-22 9:52 PM,50 F,50 F,100 %,NE,10 mph,0 mph,29.61 in,0.0 in,Light Rain
+2017-01-22 10:04 PM,50 F,50 F,100 %,NE,10 mph,0 mph,29.60 in,0.0 in,Light Rain
+2017-01-22 10:37 PM,50 F,50 F,100 %,NNE,12 mph,0 mph,29.61 in,0.0 in,Light Rain
+2017-01-22 10:52 PM,50 F,49 F,96 %,NE,14 mph,0 mph,29.61 in,0.0 in,Cloudy
+2017-01-22 11:52 PM,50 F,49 F,96 %,NE,10 mph,0 mph,29.62 in,0.0 in,Light Rain
+2017-01-22 12:14 AM,50 F,49 F,96 %,NE,13 mph,0 mph,29.61 in,0.0 in,Light Rain
+2017-01-22 12:29 AM,50 F,49 F,96 %,NE,12 mph,0 mph,29.61 in,0.0 in,Light Rain
+2017-01-22 12:52 AM,50 F,49 F,96 %,NE,14 mph,0 mph,29.60 in,0.0 in,Light Rain

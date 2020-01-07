@@ -1,0 +1,63 @@
+Time,Temperature,Dew Point,Humidity,Wind,Wind Speed,Wind Gust,Pressure,Precip.,Condition
+2017-07-06 12:20 AM,75 F,73 F,94 %,ENE,5 mph,0 mph,30.10 in,0.0 in,Cloudy
+2017-07-06 12:36 AM,75 F,73 F,94 %,ENE,5 mph,0 mph,30.10 in,0.0 in,Light Rain
+2017-07-06 12:52 AM,75 F,73 F,94 %,E,6 mph,0 mph,30.09 in,0.0 in,Light Rain
+2017-07-06 1:40 AM,75 F,73 F,94 %,ENE,6 mph,0 mph,30.08 in,0.0 in,Cloudy
+2017-07-06 1:52 AM,75 F,73 F,94 %,ENE,6 mph,0 mph,30.08 in,0.0 in,Cloudy
+2017-07-06 2:52 AM,75 F,73 F,94 %,ENE,9 mph,0 mph,30.06 in,0.0 in,Cloudy
+2017-07-06 3:44 AM,75 F,73 F,94 %,ENE,8 mph,0 mph,30.04 in,0.0 in,Light Rain
+2017-07-06 3:52 AM,75 F,73 F,94 %,ENE,8 mph,0 mph,30.04 in,0.0 in,Light Rain
+2017-07-06 4:08 AM,74 F,73 F,97 %,ENE,9 mph,0 mph,30.04 in,0.0 in,Light Rain
+2017-07-06 4:20 AM,74 F,73 F,97 %,ENE,9 mph,0 mph,30.04 in,0.0 in,Light Rain
+2017-07-06 4:34 AM,74 F,73 F,97 %,ENE,9 mph,0 mph,30.04 in,0.0 in,Light Rain
+2017-07-06 4:52 AM,74 F,73 F,97 %,ENE,7 mph,0 mph,30.04 in,0.0 in,Light Rain
+2017-07-06 5:26 AM,75 F,73 F,94 %,ENE,9 mph,0 mph,30.04 in,0.0 in,Rain
+2017-07-06 5:38 AM,75 F,73 F,94 %,ENE,8 mph,0 mph,30.04 in,0.1 in,Rain
+2017-07-06 5:52 AM,74 F,73 F,97 %,ENE,9 mph,0 mph,30.04 in,0.1 in,Heavy Rain
+2017-07-06 6:19 AM,74 F,74 F,100 %,NE,7 mph,0 mph,30.05 in,0.1 in,Rain
+2017-07-06 6:36 AM,74 F,73 F,97 %,ENE,8 mph,0 mph,30.05 in,0.1 in,Rain
+2017-07-06 6:52 AM,74 F,74 F,100 %,ENE,7 mph,0 mph,30.04 in,0.2 in,Rain
+2017-07-06 7:10 AM,74 F,74 F,100 %,ENE,7 mph,0 mph,30.04 in,0.1 in,Light Rain
+2017-07-06 7:52 AM,75 F,73 F,94 %,E,5 mph,0 mph,30.05 in,0.1 in,Light Rain
+2017-07-06 8:04 AM,75 F,74 F,96 %,E,5 mph,0 mph,30.05 in,0.0 in,Rain
+2017-07-06 8:46 AM,75 F,73 F,94 %,E,9 mph,0 mph,30.04 in,0.1 in,Rain
+2017-07-06 8:52 AM,75 F,74 F,96 %,E,9 mph,0 mph,30.05 in,0.1 in,Light Rain
+2017-07-06 9:16 AM,75 F,74 F,96 %,E,7 mph,0 mph,30.05 in,0.0 in,Light Rain
+2017-07-06 9:35 AM,75 F,74 F,96 %,ENE,8 mph,0 mph,30.04 in,0.0 in,Rain
+2017-07-06 9:49 AM,75 F,73 F,94 %,ENE,6 mph,0 mph,30.04 in,0.1 in,Rain
+2017-07-06 9:52 AM,75 F,74 F,96 %,NE,6 mph,0 mph,30.04 in,0.1 in,Rain
+2017-07-06 10:14 AM,76 F,74 F,94 %,ENE,7 mph,0 mph,30.04 in,0.0 in,Light Rain
+2017-07-06 10:39 AM,76 F,74 F,94 %,ENE,5 mph,0 mph,30.04 in,0.0 in,Rain
+2017-07-06 10:47 AM,75 F,73 F,94 %,ENE,5 mph,0 mph,30.04 in,0.1 in,Rain
+2017-07-06 10:52 AM,76 F,74 F,94 %,E,5 mph,0 mph,30.04 in,0.1 in,Rain
+2017-07-06 11:01 AM,76 F,74 F,94 %,E,6 mph,0 mph,30.04 in,0.0 in,Rain
+2017-07-06 11:19 AM,76 F,75 F,97 %,ENE,5 mph,0 mph,30.04 in,0.1 in,Light Rain
+2017-07-06 11:36 AM,76 F,75 F,97 %,E,9 mph,0 mph,30.03 in,0.1 in,Light Rain
+2017-07-06 11:52 AM,77 F,75 F,94 %,E,8 mph,0 mph,30.02 in,0.1 in,Light Rain
+2017-07-06 12:18 PM,77 F,75 F,94 %,ENE,5 mph,0 mph,30.02 in,0.0 in,Light Rain
+2017-07-06 12:52 PM,78 F,75 F,90 %,E,6 mph,0 mph,30.01 in,0.0 in,Light Rain
+2017-07-06 1:08 PM,78 F,75 F,90 %,E,8 mph,0 mph,30.01 in,0.0 in,Cloudy
+2017-07-06 1:23 PM,78 F,74 F,87 %,E,10 mph,0 mph,30.00 in,0.0 in,Light Rain
+2017-07-06 1:34 PM,77 F,75 F,94 %,CALM,0 mph,0 mph,30.01 in,0.0 in,Light Rain
+2017-07-06 1:44 PM,79 F,75 F,88 %,ESE,6 mph,0 mph,30.00 in,0.0 in,Cloudy
+2017-07-06 1:52 PM,79 F,75 F,88 %,E,8 mph,0 mph,30.00 in,0.0 in,Cloudy
+2017-07-06 2:52 PM,81 F,74 F,79 %,ENE,3 mph,0 mph,29.98 in,0.0 in,Cloudy
+2017-07-06 3:52 PM,79 F,75 F,88 %,NNE,10 mph,0 mph,29.95 in,0.0 in,Light Rain
+2017-07-06 4:52 PM,80 F,75 F,85 %,NNE,12 mph,0 mph,29.94 in,0.0 in,Cloudy
+2017-07-06 5:04 PM,80 F,75 F,85 %,NNE,13 mph,0 mph,29.94 in,0.0 in,Cloudy
+2017-07-06 5:52 PM,79 F,74 F,84 %,ENE,10 mph,0 mph,29.92 in,0.0 in,Cloudy
+2017-07-06 6:40 PM,79 F,74 F,84 %,NE,12 mph,0 mph,29.92 in,0.0 in,Cloudy
+2017-07-06 6:52 PM,78 F,74 F,87 %,ENE,12 mph,0 mph,29.92 in,0.0 in,Cloudy
+2017-07-06 7:20 PM,78 F,73 F,84 %,ENE,12 mph,0 mph,29.92 in,0.0 in,Cloudy
+2017-07-06 7:34 PM,78 F,73 F,84 %,ENE,12 mph,0 mph,29.92 in,0.0 in,Cloudy
+2017-07-06 7:52 PM,77 F,73 F,88 %,NE,12 mph,0 mph,29.93 in,0.0 in,Thunder in the Vicinity
+2017-07-06 8:16 PM,77 F,73 F,88 %,NE,9 mph,0 mph,29.93 in,0.0 in,Thunder
+2017-07-06 8:36 PM,77 F,73 F,88 %,NE,8 mph,0 mph,29.93 in,0.0 in,Thunder
+2017-07-06 8:52 PM,77 F,73 F,88 %,NNE,7 mph,0 mph,29.93 in,0.0 in,Thunder in the Vicinity
+2017-07-06 9:05 PM,77 F,73 F,88 %,NNE,7 mph,0 mph,29.92 in,0.0 in,Mostly Cloudy
+2017-07-06 9:35 PM,76 F,74 F,94 %,NE,5 mph,0 mph,29.93 in,0.0 in,Light Rain
+2017-07-06 9:52 PM,76 F,74 F,94 %,ENE,8 mph,0 mph,29.91 in,0.0 in,Cloudy
+2017-07-06 10:09 PM,76 F,74 F,94 %,ENE,3 mph,0 mph,29.91 in,0.0 in,Cloudy
+2017-07-06 10:52 PM,75 F,74 F,96 %,NE,5 mph,0 mph,29.90 in,0.0 in,Cloudy
+2017-07-06 10:59 PM,76 F,74 F,94 %,NE,3 mph,0 mph,29.90 in,0.0 in,Cloudy
+2017-07-06 11:55 PM,75 F,73 F,94 %,NE,5 mph,0 mph,29.89 in,0.0 in,Cloudy

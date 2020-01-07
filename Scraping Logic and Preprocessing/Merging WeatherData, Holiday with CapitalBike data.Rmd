@@ -1,0 +1,176 @@
+---
+title: "Capital BikeShare Analysis"
+author: "Dataphilers"
+date: "10/29/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r message=FALSE, warning=FALSE}
+library(dplyr)
+```
+
+
+Read the CSV, for only last 5 years i.e. September 2013 to September 2019 (Note there should be 3000 data points)
+```{r read_csv, message=FALSE, warning=FALSE}
+# due to storage limit of bitbucket, download Capital Bike Data file from https://www.capitalbikeshare.com/system-data
+bikeFileNames <- list.files(path="Capital Bike Share Data\\2019",pattern="*.csv",full.names=T) #change this [2013,2014,2015,2016,2017,2018,2019]
+tbl <- sapply(bikeFileNames, read.csv, simplify=FALSE) %>% bind_rows()
+```
+
+* Convert into appropriate data type
+  * Duration rename column to seconds
+```{r}
+colnames(tbl)[colnames(tbl)=='Duration'] = 'seconds'
+```
+  
+  * start.date and end.date convert to POSIXct type
+```{r}
+# x <- strptime("2019-10-29 00:04:23",format="%Y-%m-%d %H:%M:%S",tz = "EST")
+# print(x$mday)
+# print(x$mon+1)
+# print(x$year+1900)
+# print(x$hour)
+# print(x$min)
+# print(x$sec)
+# print(x$wday) # 0=Sunday, 1=Monday ....
+# print(x$zone)
+
+tbl$Start.date <- strptime(tbl$Start.date,format="%Y-%m-%d %H:%M:%S",tz = "EST")
+tbl$End.date <- strptime(tbl$End.date,format="%Y-%m-%d %H:%M:%S",tz = "EST")
+```
+
+  * Start.station.number convert to factor
+  * Start.station convert to factor
+  * End.station.number convert to factor
+  * End.station  convert to factor
+  * Bike.number convert to factor
+  * member.type convert to factor
+
+
+
+
+* add weather data
+```{r}
+#read all the columns as chr class
+weatherData <- read.csv("Capital Bike Share Data/WeatherData/aggregatedWeatherData.csv",header = T,stringsAsFactors = FALSE)
+```
+  
+  * combine weatherData with tbl to get weather information for start Date and End date columns based on common column
+```{r}
+#add temp column in tbl
+tbl$temp <- format(round(tbl$Start.date, units="hours"), format="%Y-%m-%d %H:%M:%S")
+```
+
+```{r}
+#merge the 2 dataframes
+combined <- merge(tbl,weatherData,by.x = "temp",by.y = "Time")
+```
+
+* Weekend or Weekday
+  * using existing tbl column add new column which will contain whether date is weekday or weekend
+```{r}
+combined$weekday <- ifelse(combined$Start.date$wday==0 | combined$Start.date$wday==6, "Weekend",  "Weekday")
+```
+
+* add holiday data from holiday list csv
+```{r}
+holidayData <- read.csv("Capital Bike Share Data/Holiday List/usholidays.csv",header = T,stringsAsFactors = FALSE)
+holidayData <- holidayData[c("Date","Holiday")]
+
+# reformat the temp column of combined dataframe to be able to merge with holidayData dataframe
+combined$temp <- format(combined$Start.date, format="%Y-%m-%d")
+
+#merge holidays
+combined <- merge(combined,holidayData,by.x = "temp",by.y = "Date",all.x = TRUE)
+```
+
+* Time of day => working or non working hour 
+```{r}
+# https://en.wikipedia.org/wiki/9_to_5_(disambiguation)
+combined$timeOfDay <- ifelse(combined$Start.date$hour>=9 & combined$Start.date$hour<=17,
+                             "Working Hour",
+                             "Non Working Hour"
+                             )
+```
+
+
+* Season => Fall, winter, summer, spring 
+```{r}
+# https://www.visittheusa.com/info/weather-seasons
+# Summer: June - August
+# Fall: September - November
+# Winter: December - February
+# Spring: March - May 
+# months go from 0 to 11
+combined$Start.date <- strptime(combined$Start.date,format="%Y-%m-%d %H:%M:%S",tz = "EST")
+
+combined$season <- ifelse(combined$Start.date$mon %in% c(11,0,1), 
+                            "Winter",
+                            ifelse(combined$Start.date$mon %in% c(2,3,4), 
+                                   "Spring",
+                                   ifelse(combined$Start.date$mon %in% c(5,6,7), 
+                                          "Summer",
+                                          "Fall")
+                                   )
+                          )
+```
+
+
+
+
+```{r}
+n <- c("Start.date"          
+       ,"Start.station"       
+       ,"Condition"            
+       ,"Wind"                
+       ,"Temperature"          
+       ,"Dew.Point"            
+       ,"Humidity"            
+       ,"Wind.Speed"           
+       ,"Wind.Gust"            
+       ,"Pressure"            
+       ,"Precip."              
+       ,"Holiday"              
+       ,"weekday"             
+       ,"timeOfDay"            
+       ,"season")
+combined <- combined[n]
+```
+
+
+```{r}
+colnames(combined)[colnames(combined)=="Temperature"]="Temperature (F)"
+colnames(combined)[colnames(combined)=="Dew.Point"]="Dew.Point (F)"
+colnames(combined)[colnames(combined)=="Humidity"]="Humidity (%)"
+colnames(combined)[colnames(combined)=="Wind.Speed"]="Wind.Speed (mph)"
+colnames(combined)[colnames(combined)=="Wind.Gust"]="Wind.Gust (mph)"
+colnames(combined)[colnames(combined)=="Pressure"]="Pressure (in)"
+colnames(combined)[colnames(combined)=="Precip."]="Precip. (in)"
+```
+
+```{r}
+combined$Start.date <- format(round(combined$Start.date, units="hours"), format="%Y-%m-%d %H:%M:%S")
+```
+
+Group by Start Date and Start.station
+```{r}
+combined <- combined %>% group_by(Start.date,Start.station) %>% mutate(noOfBikes = n()) %>% distinct(Start.date,Start.station,.keep_all = TRUE) %>% arrange(Start.station)
+```
+
+Write to csv, finally!
+```{r}
+write.csv(combined,"rawCapitalBikeShare2019.csv") #change this [2013,2014,2015,2016,2017,2018,2019]
+```
+
+
+Combining all the csv back
+```{r}
+calendarNames <- list.files(path=".",pattern="*.csv",full.names=T)
+finalDF <- sapply(calendarNames, read.csv, simplify=FALSE) %>% bind_rows()
+write.csv(finalDF,"rawCapitalBikeShare.csv")
+```
+

@@ -1,0 +1,33 @@
+Time,Temperature,Dew Point,Humidity,Wind,Wind Speed,Wind Gust,Pressure,Precip.,Condition
+2014-07-21 12:52 AM,75 F,67 F,76 %,SSE,5 mph,0 mph,30.12 in,0.0 in,Cloudy
+2014-07-21 1:52 AM,75 F,66 F,73 %,SSE,7 mph,0 mph,30.12 in,0.0 in,Cloudy
+2014-07-21 2:46 AM,73 F,66 F,78 %,SSE,8 mph,0 mph,30.11 in,0.0 in,Cloudy
+2014-07-21 2:52 AM,74 F,66 F,76 %,SSE,8 mph,0 mph,30.11 in,0.0 in,Cloudy
+2014-07-21 3:11 AM,73 F,64 F,73 %,SE,6 mph,0 mph,30.11 in,0.0 in,Cloudy
+2014-07-21 3:52 AM,74 F,65 F,73 %,SE,5 mph,0 mph,30.12 in,0.0 in,Cloudy
+2014-07-21 4:20 AM,73 F,64 F,73 %,ESE,3 mph,0 mph,30.12 in,0.0 in,Cloudy
+2014-07-21 4:52 AM,73 F,65 F,76 %,SE,5 mph,0 mph,30.13 in,0.0 in,Cloudy
+2014-07-21 5:19 AM,73 F,64 F,73 %,SE,6 mph,0 mph,30.13 in,0.0 in,Cloudy
+2014-07-21 5:44 AM,73 F,64 F,73 %,CALM,0 mph,0 mph,30.14 in,0.0 in,Cloudy
+2014-07-21 5:52 AM,73 F,64 F,73 %,CALM,0 mph,0 mph,30.14 in,0.0 in,Cloudy
+2014-07-21 6:01 AM,73 F,64 F,73 %,ESE,5 mph,0 mph,30.15 in,0.0 in,Cloudy
+2014-07-21 6:52 AM,73 F,64 F,73 %,E,5 mph,0 mph,30.15 in,0.0 in,Mostly Cloudy
+2014-07-21 7:52 AM,74 F,64 F,71 %,ESE,6 mph,0 mph,30.16 in,0.0 in,Mostly Cloudy
+2014-07-21 8:52 AM,75 F,64 F,69 %,ESE,5 mph,0 mph,30.17 in,0.0 in,Cloudy
+2014-07-21 9:52 AM,77 F,65 F,66 %,SE,5 mph,0 mph,30.18 in,0.0 in,Mostly Cloudy
+2014-07-21 10:52 AM,79 F,64 F,60 %,CALM,0 mph,0 mph,30.17 in,0.0 in,Mostly Cloudy
+2014-07-21 11:24 AM,81 F,64 F,58 %,SE,6 mph,0 mph,30.18 in,0.0 in,Cloudy
+2014-07-21 11:52 AM,81 F,64 F,56 %,E,3 mph,0 mph,30.17 in,0.0 in,Cloudy
+2014-07-21 12:52 PM,83 F,64 F,53 %,S,5 mph,0 mph,30.16 in,0.0 in,Mostly Cloudy
+2014-07-21 1:33 PM,84 F,64 F,51 %,CALM,0 mph,0 mph,30.15 in,0.0 in,Cloudy
+2014-07-21 1:52 PM,83 F,64 F,53 %,CALM,0 mph,0 mph,30.15 in,0.0 in,Cloudy
+2014-07-21 2:52 PM,85 F,64 F,49 %,ENE,6 mph,0 mph,30.14 in,0.0 in,Cloudy
+2014-07-21 3:52 PM,83 F,65 F,54 %,ESE,9 mph,0 mph,30.13 in,0.0 in,Mostly Cloudy
+2014-07-21 4:52 PM,84 F,65 F,53 %,ESE,7 mph,0 mph,30.14 in,0.0 in,Mostly Cloudy
+2014-07-21 5:52 PM,83 F,66 F,56 %,SSE,10 mph,0 mph,30.13 in,0.0 in,Mostly Cloudy
+2014-07-21 6:52 PM,82 F,66 F,58 %,SE,6 mph,0 mph,30.14 in,0.0 in,Cloudy
+2014-07-21 7:52 PM,81 F,66 F,60 %,SSE,10 mph,0 mph,30.14 in,0.0 in,Mostly Cloudy
+2014-07-21 8:52 PM,79 F,65 F,62 %,SSE,6 mph,0 mph,30.14 in,0.0 in,Mostly Cloudy
+2014-07-21 9:52 PM,78 F,64 F,62 %,SSE,5 mph,0 mph,30.16 in,0.0 in,Mostly Cloudy
+2014-07-21 10:52 PM,77 F,66 F,69 %,S,7 mph,0 mph,30.16 in,0.0 in,Partly Cloudy
+2014-07-21 11:52 PM,76 F,67 F,74 %,S,6 mph,0 mph,30.17 in,0.0 in,Partly Cloudy
