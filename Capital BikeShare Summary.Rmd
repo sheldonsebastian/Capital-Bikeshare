@@ -851,3 +851,9 @@ Motivate International, Inc. (n.d.). Press Kit. Retrieved November 26, 2019, fro
 Capital Bikeshare Discount. (n.d.). Retrieved November 26, 2019, from https://benefits.gwu.edu/capital-bikeshare-discount.
 
 Therneau, T. M. (2019, April 11). An Introduction to Recursive Partitioning Using the RPART Routines. Retrieved November 26, 2019, from https://cran.r-project.org/web/packages/rpart/vignettes/longintro.pdf.
+
+------
+
+Github Repository:
+
+https://github.com/sheldonsebastian/Capital-Bikeshare
