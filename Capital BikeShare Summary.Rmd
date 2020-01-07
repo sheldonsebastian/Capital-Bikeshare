@@ -1,5 +1,12 @@
 ---
 title: "DATS6101 Group Project: Dataphilers - Capital BikeShare"
+
+knit: (function(input_file, encoding) {
+  out_dir <- 'docs';
+  rmarkdown::render(input_file,
+ encoding=encoding,
+ output_file=file.path(dirname(input_file), out_dir, 'index.html'))})
+
 author: "Gayathri Chandrasekaran, Ke Zhou, Pragya Srivastava, Saurav Mainali, Sheldon Sebastian"
 date: "11/26/2019"
 output: 
@@ -7,13 +14,6 @@ output:
     toc: yes
     toc_depth: 3
     toc_float: yes
-    
-knit: (function(input_file, encoding) {
-  out_dir <- 'docs';
-  rmarkdown::render(input_file,
- encoding=encoding,
- output_file=file.path(dirname(input_file), out_dir, 'index.html'))})
-
 ---
 
 ```{r setup, include=FALSE}
