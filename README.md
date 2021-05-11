@@ -1,11 +1,18 @@
-# Capital-Bikeshare
-Create predictive model to predict the demand of bike
+## README: 
 
-Website:
+### Final Report:
 https://sheldonsebastian.github.io/Capital-Bikeshare/
 
-RMD File:
-https://github.com/sheldonsebastian/Capital-Bikeshare/blob/master/Capital%20BikeShare%20Summary.Rmd
+### Folder Structure:
 
-Original Source:
-https://bitbucket.org/dataphilers/6101-data-science/src/master/Captial_Bikeshare/DATS%206101%20Dataphilers%20Project%20%232/
+| Path | Description | 
+|------|-------------|
+| Scraping Logic and Preprocessing | contains all scripts to scrape data, preprocess and merge into single csv|
+| Images | contains all saved images |
+| doc | contains files for website |
+| Capital BikeShare Summary.Rmd | contains all codes to create models and plot graphs |
+
+### Steps to replicate project:
+
+1. Download data from using scripts in "Scraping Logic and Preprocessing" folder.
+2. Run Capital BikeShare Summary.Rmd to plot all graphs and create all models.
